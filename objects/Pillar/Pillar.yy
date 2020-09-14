@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_columns",
-    "path": "sprites/spr_columns/spr_columns.yy",
+    "name": "spr_column_arne",
+    "path": "sprites/spr_column_arne/spr_column_arne.yy",
   },
   "solid": false,
   "visible": false,

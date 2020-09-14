@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"60dfe912-1d05-4017-be88-51097fa37934","path":"sprites/spr_mountains_bg3/spr_mountains_bg3.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"60dfe912-1d05-4017-be88-51097fa37934","path":"sprites/spr_mountains_bg3/spr_mountains_bg3.yy",},"LayerId":{"name":"af856d96-3c24-4ee6-800a-f99def97e98f","path":"sprites/spr_mountains_bg3/spr_mountains_bg3.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mountains_bg3","path":"sprites/spr_mountains_bg3/spr_mountains_bg3.yy",},"resourceVersion":"1.0","name":"60dfe912-1d05-4017-be88-51097fa37934","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"1d82a52d-fdfc-4faf-9dc3-516c30787494","path":"sprites/spr_mountains_bg3/spr_mountains_bg3.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"1d82a52d-fdfc-4faf-9dc3-516c30787494","path":"sprites/spr_mountains_bg3/spr_mountains_bg3.yy",},"LayerId":{"name":"ffecf7ce-06c7-4b2f-bbc5-70193af42f49","path":"sprites/spr_mountains_bg3/spr_mountains_bg3.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_mountains_bg3","path":"sprites/spr_mountains_bg3/spr_mountains_bg3.yy",},"resourceVersion":"1.0","name":"1d82a52d-fdfc-4faf-9dc3-516c30787494","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_mountains_bg3","path":"sprites/spr_mountains_bg3/spr_mountains_bg3.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"a403394c-2467-48ea-9290-1c8f60621891","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"60dfe912-1d05-4017-be88-51097fa37934","path":"sprites/spr_mountains_bg3/spr_mountains_bg3.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"59fb192a-bee2-4a02-ade6-809863d3faf5","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1d82a52d-fdfc-4faf-9dc3-516c30787494","path":"sprites/spr_mountains_bg3/spr_mountains_bg3.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"af856d96-3c24-4ee6-800a-f99def97e98f","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ffecf7ce-06c7-4b2f-bbc5-70193af42f49","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Sprites",
