@@ -14,6 +14,21 @@ function macros(){
 		swoopIn
 	}
 
+	enum gameStates {
+		menu,
+		playing,
+		dead,
+		paused
+	}
 	
+	enum sfxPriorities{
+		ambience,
+		work,
+		combatAttacking,
+		combatDamage,
+		combatDeath,
+		player,
+		bgm	
+	}
 
 }

@@ -17,9 +17,9 @@ draw_set_color(c_white);
 xxx=left + w/2;
 yyy=bottom-12;
 
-draw_text_ext_color(xxx,yyy,string(curScore),1,120,c_white,c_orange,c_white,c_orange,1);
 	xxx = left + padding;
 	yyy =top + 3//+ padding 
+
 for (var i=0;i<global.hpMax;i++){
 
 	if (i<global.hp){img=0;}else{img=1;}

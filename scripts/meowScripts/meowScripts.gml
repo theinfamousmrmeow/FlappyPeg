@@ -17,6 +17,41 @@ The weights don't necessarily need to add up to 1.
 
 **/
 
+///@param camera
+function getViewCenterX(){
+	/// @description Insert description here
+	// You can write your code in this editor
+	var cam = view_get_camera(argument0);
+	var padding = 12;
+	var left = camera_get_view_x(cam);
+	var top = camera_get_view_y(cam);
+	var w = camera_get_view_width(cam);
+	var h = camera_get_view_height(cam);
+	var bottom = top+h;
+	var right = left+w;
+	xxx = left + padding;
+	yyy = bottom - padding;
+	return left + w/2;
+	
+}
+
+///@param camera
+function getViewCenterY(){
+	/// @description Insert description here
+	// You can write your code in this editor
+	var cam = view_get_camera(argument0);
+	var padding = 12;
+	var left = camera_get_view_x(cam);
+	var top = camera_get_view_y(cam);
+	var w = camera_get_view_width(cam);
+	var h = camera_get_view_height(cam);
+	var bottom = top+h;
+	var right = left+w;
+	xxx = left + padding;
+	yyy = bottom - padding;
+	return top + h/2;
+}
+
 
 function weightedMean(){
 		var valueSum=0;

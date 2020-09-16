@@ -30,8 +30,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Title",
-    "path": "folders/Objects/Title.yy",
+    "name": "UI",
+    "path": "folders/Objects/UI.yy",
   },
   "resourceVersion": "1.0",
   "name": "Button",

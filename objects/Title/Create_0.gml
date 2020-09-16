@@ -4,7 +4,10 @@ ytarget=room_height*(1/4);
 y=room_height*2;
 x=room_width/2;
 depth=-9999;
-//bgmPlay(bgmTitle);
+
+initGame();
+
+bgmPlay(bgmTitle);
 
 scale=0.1;
 
