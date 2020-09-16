@@ -15,7 +15,7 @@ draw_set_color(c_white);
 //draw_text(xxx,yyy,"Coins x "+string(global.coins));
 
 xxx=left + w/2;
-yyy=top //+ padding
+yyy=bottom-12;
 
 draw_text_ext_color(xxx,yyy,string(curScore),1,120,c_white,c_orange,c_white,c_orange,1);
 	xxx = left + padding;

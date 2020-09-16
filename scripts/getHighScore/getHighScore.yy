@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Score",
-    "path": "folders/Scripts/Score.yy",
+    "name": "Scores",
+    "path": "folders/Scripts/Scores.yy",
   },
   "resourceVersion": "1.0",
-  "name": "loadScore",
+  "name": "getHighScore",
   "tags": [],
   "resourceType": "GMScript",
 }

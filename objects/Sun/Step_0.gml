@@ -12,5 +12,5 @@ else{
 
 dir = (global.time/2400) * 360 + skyOffset;
 
-x=room_width/2+lengthdir_x(room_height-sprite_height,dir)
-y=room_height+lengthdir_y(room_height-sprite_height,dir)
+//x=room_width/2+lengthdir_x(room_height-sprite_height,dir)
+//y=room_height+lengthdir_y(room_height-sprite_height,dir)

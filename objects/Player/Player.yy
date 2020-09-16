@@ -5,7 +5,10 @@
   },
   "solid": false,
   "visible": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spr_peg_mask",
+    "path": "sprites/spr_peg_mask/spr_peg_mask.yy",
+  },
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,
