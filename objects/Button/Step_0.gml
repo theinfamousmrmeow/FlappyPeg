@@ -6,3 +6,5 @@ if (scale<1){
 }
 x=weightedMean(x,4,xtarget,1);
 y=weightedMean(y,4,ytarget,1);
+
+pulseAmount = max(0,sin(x+y+(pulseTimer++/10))/6);

@@ -2,15 +2,19 @@
 // You can write your code in this editor
 if (blinking==0){
 
-	if (action!=actions.walk && vspeed>0 && !place_meeting(x,y-(abs(vspeed))-4,other.id)){
+	if (action!=actions.walk && place_meeting(x,y+2,other.id) && vspeed>=0 && !place_meeting(x,y-(abs(vspeed))-16,other.id)){
 		vspeed=abs(vspeed/2)*-1;
 		vspeed-=1
+		vspeed=-1;
+		y-=abs(vspeed);
 	}
 	else {
 	global.hp-=1;
 	screenShake(8);
 	blinking=32;
 	alarm[0]=2;
+		action=actions.hurt;
+	alarm[1]=10;
 	}
 }
 else {

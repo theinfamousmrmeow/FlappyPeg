@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 i=instance_create_depth(x,y,depth,DeadPegasus);
+screenShake(20);
 global.gameState = gameStates.dead;
 bgmPlaySting(bgmLost);
 i=instance_create_depth(getViewCenterX(0),getViewCenterY(0)+300,-9999,RestartButton);

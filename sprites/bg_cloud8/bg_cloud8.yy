@@ -60,7 +60,7 @@
     "eventStubScript": null,
     "parent": {"name":"bg_cloud8","path":"sprites/bg_cloud8/bg_cloud8.yy",},
     "resourceVersion": "1.3",
-    "name": "",
+    "name": "bg_cloud8",
     "tags": [],
     "resourceType": "GMSequence",
   },

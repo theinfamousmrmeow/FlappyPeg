@@ -6,7 +6,7 @@ image_yscale=scale;
 draw_text_ext_color(0, 0, "v" + string(GM_version),8,100,c_white,c_aqua,c_aqua,c_blue,0.5);
 draw_set_halign(fa_center);
 
-draw_text_ext_transformed_color(x,y-32,"Little",0,y+64,image_xscale,image_yscale,0,c_white,c_blue,c_blue,c_blue,1);
+draw_text_ext_transformed_color(x,y-32,"little",0,y+72,image_xscale,image_yscale,0,c_aqua,c_aqua,c_aqua,c_aqua,1);
 draw_self();
 
 

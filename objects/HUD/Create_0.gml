@@ -6,3 +6,4 @@ alarm[0]=3;
 
 i=instance_create_depth(x,y,depth,scoreHud);
 bgmPlay(bgmMain);
+alarm[1]=100;

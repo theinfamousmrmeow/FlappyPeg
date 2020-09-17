@@ -4,6 +4,7 @@ function initGame() {
 	initView()
 	initFonts();
 	//
+	global.difficulty=0;
 	global.coins=getCoins();
 	global.highScore = getHighScore();
 	global.scrollSpeed=0;

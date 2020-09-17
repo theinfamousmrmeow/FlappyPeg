@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_peg_walk",
-    "path": "sprites/spr_peg_walk/spr_peg_walk.yy",
+    "name": "spr_peg_hurt",
+    "path": "sprites/spr_peg_hurt/spr_peg_hurt.yy",
   },
   "solid": false,
   "visible": true,

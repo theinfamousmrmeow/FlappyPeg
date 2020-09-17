@@ -90,3 +90,11 @@ function splitString(){
 	}
 	return strings;
 }
+
+///@description Rounds given value to the nearest indicated neighbor
+///@param valueToBeRounded
+///@param toNearestWhat
+/// roundToNearest(0.83,0.05) == 0.85;
+function roundToNearest(){
+	return round(argument0 / argument1) * argument1;
+}

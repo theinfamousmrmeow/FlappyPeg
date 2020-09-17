@@ -6,6 +6,7 @@ if (action!=actions.swoopIn){
 	if (vspeed>0){vspeed=0;}
 	vspeed-=flap_speed;
 	image_speed=1;
+	image_index=0;
 	spawnParticle(x,y,global.p_trailfeather,1);
 	audio_play_sound(sfxFlap,10,0);
 }

@@ -28,8 +28,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Pickups",
+    "path": "folders/Objects/Pickups.yy",
   },
   "resourceVersion": "1.0",
   "name": "Coin",

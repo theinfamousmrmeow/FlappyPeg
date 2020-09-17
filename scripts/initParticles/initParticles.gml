@@ -157,12 +157,7 @@ function initParticles() {
 	part_type_scale(global.p_smallSplode, 1, 1);
 	part_type_life(global.p_smallSplode, 16, 16);
 
-	global.p_ember = part_type_create();
 
-	part_type_sprite(global.p_ember , spr_ember, 1, 1, 0);
-	part_type_size(global.p_ember, 0.5, 1, 0.1, 0.05);
-	part_type_scale(global.p_ember, 1, 1);
-	part_type_life(global.p_ember, 8, 8);
 
 	global.p_smoke = part_type_create();
 
@@ -178,6 +173,16 @@ function initParticles() {
 	//part_type_orientation(global.p_smoke, 0, 0, 0, 0, 1);
 	//part_type_blend(global.p_smoke, 1);
 	part_type_life(global.p_smoke, 10, 20);
+	
+		global.p_ember = part_type_create();
+
+	part_type_sprite(global.p_ember , spr_ember, 1, 1, 0);
+	//part_type_size(global.p_ember, 1, 1, 1, 0.05);
+	//part_type_scale(global.p_ember, 1, 1);
+	part_type_life(global.p_ember, 12, 24);
+	part_type_direction(global.p_ember,0,180,1,10);
+	part_type_speed(global.p_ember,0.1,0.4,0.05,0.1);
+	part_type_death(global.p_ember,1,global.p_smoke);
 
 	//part_type_death(global.p_flames, 1, global.p_smoke);
 

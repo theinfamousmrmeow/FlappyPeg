@@ -19,9 +19,15 @@ switch (action){
 		image_speed=0.25;
 		sprite_index=spr_peg_walk;
 	break;
+	case actions.hurt:
+		sprite_index=spr_peg_hurt;
+	break;
+	case actions.idle:
+		if (vspeed>0){image_index=1;}else{image_index=0;}
+	break;
 	
 }
 //gravity=0.1;
 if (place_meeting(x,y,Ground)){vspeed=-5;}
 
-image_angle=-(vspeed*5)
+angle=-(vspeed*5)
