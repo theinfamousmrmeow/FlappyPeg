@@ -3,4 +3,5 @@
 global.gameState = gameStates.playing;
 score=0;
 global.hp = global.hpMax;
+global.difficulty=1;
 room_restart();

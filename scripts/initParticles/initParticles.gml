@@ -120,6 +120,19 @@ function initParticles() {
 	//part_type_gravity(global.p_trailfeather, 0.05, 270);
 	part_type_life(global.p_trailfeather, 120, 160);
 
+	global.p_pop = part_type_create();
+
+	part_type_sprite(global.p_pop , spr_pop, 1, 1, 0);
+	//part_type_size(global.p_pop, 0.5, 1, 0.1, 0.05);
+	part_type_scale(global.p_pop, 1, 1);
+	part_type_life(global.p_pop, 16,32);
+	part_type_direction(global.p_pop,0,360,10,0);
+	part_type_speed(global.p_pop,0.8,2,0,0);
+
+	part_type_color3(global.p_pop,c_fuchsia,c_yellow,c_red);
+	//part_type_orientation(global.p_sparkle, 0, 10, 0, 10, 1);
+	
+	
 	global.p_sparkle = part_type_create();
 
 	part_type_sprite(global.p_sparkle , spr_sparkle, 1, 1, 0);
@@ -131,6 +144,7 @@ function initParticles() {
 
 	part_type_color2(global.p_sparkle,c_white,c_yellow);
 	//part_type_orientation(global.p_sparkle, 0, 10, 0, 10, 1);
+	
 	global.p_pointer = part_type_create();
 
 	//part_type_sprite(global.p_pointer , spr_pointer_move, 1, 1, 0);

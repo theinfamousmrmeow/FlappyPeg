@@ -2,10 +2,10 @@
 // You can write your code in this editor
 if (blinking==0){
 
-	if (action!=actions.walk && place_meeting(x,y+2,other.id) && vspeed>=0 && !place_meeting(x,y-(abs(vspeed))-16,other.id)){
+	if (action!=actions.walk && place_meeting(x,y+2,other.id) && vspeed>=0 && !place_meeting(x,y-(abs(vspeed+1))-16,other.id)){
 		vspeed=abs(vspeed/2)*-1;
 		vspeed-=1
-		vspeed=-1;
+		vspeed=-2;
 		y-=abs(vspeed);
 	}
 	else {

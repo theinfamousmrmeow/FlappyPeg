@@ -8,3 +8,4 @@ y=room_height+100;
 textColor=c_white;
 pulseAmount=0;
 pulseTimer=0;
+depth=-9998;
