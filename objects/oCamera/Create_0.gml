@@ -3,8 +3,8 @@
 camera	= view_camera[0];
 
 // Set up 3D camera
-camDist	= -10; // Distance
-camFov	= 90; // Field of view
+camDist	= -80; // Distance
+camFov	= 120; // Field of view
 camAsp	= camera_get_view_width(camera) / camera_get_view_height(camera); // Aspect ratio
 
 camDistRaw = camDist; // Raw value, used as interpolation target

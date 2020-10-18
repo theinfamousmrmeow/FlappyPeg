@@ -7,3 +7,4 @@ alarm[3]=100;
 alarm[11]=1;
 //alarm[11]=1000+random(100);
 i=instance_create_depth(room_width+16,random(room_height-64)+32,depth,Heart);
+depth=0;

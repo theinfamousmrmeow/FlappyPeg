@@ -18,7 +18,7 @@ GoogleMobileAds_LoadInterstitial();
 GoogleMobileAds_UseTestAds(true,"6E4B267BD68B835AF8C3A8065BFC8BCE")
 interstitial_loaded = false;
 
-GoogleMobileAds_LoadRewardedVideo(rewarded_id);
+//GoogleMobileAds_LoadRewardedVideo(rewarded_id);
 rewarded_loaded = false;
 rewarded_viewed = false;
 

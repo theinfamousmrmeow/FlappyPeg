@@ -12,7 +12,7 @@ if _id == GoogleMobileAds_ASyncEvent
             break;
 		case "rewardedvideo_loadfailed":
 			show_debug_message("Error Code: " + string(async_load[? "errorcode"]));
-			GoogleMobileAds_LoadRewardedVideo(rewarded_id);
+			//GoogleMobileAds_LoadRewardedVideo(rewarded_id);
 		break;	
 			
 			
@@ -27,14 +27,7 @@ if _id == GoogleMobileAds_ASyncEvent
             rewarded_viewed = true;
             addCoins( async_load[? "amount"]);
 			//addCoins(100);
-			if (instance_exists(GambleRallex)){
-				i=instance_create_depth(GambleRallex.x,GambleRallex.y,-9999,chestItem);
-				i.sprite_index=spr_treasure;
-				i.xtarget = i.x;
-				i.ytarget = i.y-16;
-				i.alarm[1]=100;
-				GambleRallex.xtarget=room_width+200;
-			}
+
             break;
         case "rewardedvideo_adclosed":
             show_debug_message("Rewards Video Closed");

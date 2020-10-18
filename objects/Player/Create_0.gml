@@ -14,4 +14,5 @@ global.scrollSpeed=1;
 hp=3;
 blinking=0;
 depth=-9998;
+depth=0;
 //depth=0;
